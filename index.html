@@ -541,7 +541,7 @@
           name="submit-form"
           autocomplete="off"
         >
-          <div class="footer-form__field">
+          <div class="footer-form__modal-form__field">
             <strong class="footer-form__label">Підпишіться на розсилку</strong>
             <input
               class="footer-form__input"
@@ -573,55 +573,55 @@
         </button>
         <!-- Modal Form -->
         <form class="modal-form" name="modal-form" autocomplete="off">
-          <strong class="modal-form-title"
+          <strong class="modal-form__title"
             >Залиште свої дані, ми вам передзвонимо</strong
           >
 
-          <div class="form-input-group" role="group">
-            <label class="field">
-              <span class="lable-title">Ім'я</span>
+          <div class="modal-form__input-group" role="group">
+            <label class="modal-form__field">
+              <span class="modal-form__lable">Ім'я</span>
               <input
-                class="input-form"
+                class="modal-form__input"
                 name="name-feedback"
                 type="text"
                 placeholder=" "
                 autofocus
               />
-              <svg class="icon-form">
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon_person"></use>
               </svg>
             </label>
 
-            <label class="field">
-              <span class="lable-title">Телефон</span>
+            <label class="modal-form__field">
+              <span class="modal-form__lable">Телефон</span>
               <input
-                class="input-form"
+                class="modal-form__input"
                 name="tel-feedback"
                 type="tel"
                 placeholder=" "
               />
-              <svg class="icon-form">
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon_phone"></use>
               </svg>
             </label>
 
-            <label class="field">
-              <span class="lable-title">Пошта</span>
+            <label class="modal-form__field">
+              <span class="modal-form__lable">Пошта</span>
               <input
-                class="input-form"
+                class="modal-form__input"
                 name="email-feedback"
                 type="email"
                 placeholder=" "
               />
-              <svg class="icon-form">
+              <svg class="modal-form__icon">
                 <use href="./images/icons.svg#icon_email_black"></use>
               </svg>
             </label>
 
-            <label class="textarea-form">
-              <span class="lable-title">Коментар</span>
+            <label class="modal-form__field">
+              <span class="modal-form__lable">Коментар</span>
               <textarea
-                class="textarea"
+                class="modal-form__textarea"
                 name="comment-feedback"
                 placeholder="Введіть текст"
               >
@@ -629,14 +629,14 @@
             </label>
           </div>
 
-          <label class="checkbox-label">
+          <label class="checkbox">
             <input
-              class="checkbox-input visually-hidden"
+              class="checkbox__input visually-hidden"
               name="check-policy"
               type="checkbox"
               value="checked-policy"
             />
-            <svg class="icon-checkbox">
+            <svg class="checkbox__icon">
               <use
                 class="icon-check"
                 href="./images/icons.svg#icon_check"
@@ -646,9 +646,11 @@
                 href="./images/icons.svg#icon_uncheck"
               ></use>
             </svg>
-            <span class="checkbox-text"
+            <span class="checkbox__text"
               >Погоджуюся з розсилкою та приймаю
-              <a class="form-policy" href="">Умови договору</a>
+              <a class="checkbox__link checkbox__link--color" href=""
+                >Умови договору</a
+              >
             </span>
           </label>
 
