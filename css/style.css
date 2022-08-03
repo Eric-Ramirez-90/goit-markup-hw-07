@@ -815,10 +815,10 @@ img {
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter .item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
-.filter-btn {
+.filter__btn {
   padding: 6px 22px;
 
   font-weight: 500;
@@ -837,43 +837,42 @@ img {
     background-color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
 }
-.filter-btn:hover,
-.filter-btn:focus {
+.filter__btn:hover,
+.filter__btn:focus {
   color: var(--hero-text-color);
   background-color: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Section Portfolio */
-.gallery {
+/* Card Set Section */
+.card-set {
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-set-gap);
 }
-.gallery-item {
+.card-set__item {
   flex-basis: calc(
     (100% - var(--card-set-gap) * (var(--item) - 1)) / var(--item)
   );
 }
-.gallery-link {
+.card-set__link {
   display: block;
 
   color: var(--primary-text-color);
 
   transition: box-shadow 250ms var(--timing-function);
 }
-.gallery-link:hover,
-.gallery-link:focus {
+.card-set__link:hover,
+.card-set__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-
-.gallery-thumb {
+.card {
   position: relative;
   overflow: hidden;
 }
-.gallery-thumb::before {
+.card::before {
   position: absolute;
   top: 0;
   left: 0;
@@ -891,12 +890,12 @@ img {
   transition: transform 250ms var(--timing-function),
     opacity 250ms var(--timing-function);
 }
-.gallery-link:hover .gallery-thumb::before,
-.gallery-link:focus .gallery-thumb::before {
+.card-set__link:hover .card::before,
+.card-set__link:focus .card::before {
   transform: translateY(0);
   opacity: 1;
 }
-.thumb-text {
+.card__descr {
   position: absolute;
   top: 0;
   left: 0;
@@ -914,17 +913,17 @@ img {
   transition: transform 250ms var(--timing-function),
     opacity 250ms var(--timing-function);
 }
-.gallery-link:hover .thumb-text,
-.gallery-link:focus .thumb-text {
+.card-set__link:hover .card__descr,
+.card-set__link:focus .card__descr {
   opacity: 1;
   transform: translateY(0);
 }
-.gallery-wrapper {
+.card__wrapper {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
-.gallery-item .gallery-title {
+.card__title {
   margin-bottom: 4px;
 
   font-size: 18px;
@@ -932,7 +931,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.gallery-text {
+.card__descr {
   font-size: 16px;
   line-height: 1.87;
 }
