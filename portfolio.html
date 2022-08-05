@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <!-- Font start -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <!-- Font end -->
     <!--Normalize start-->
     <link
       rel="stylesheet"
@@ -18,11 +20,9 @@
       referrerpolicy="no-referrer"
     />
     <!--Normalize end-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Style.css start -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- Style.css end -->
   </head>
 
   <body>
@@ -103,7 +103,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -125,7 +125,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -147,7 +147,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -169,7 +169,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -191,7 +191,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -213,7 +213,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -235,7 +235,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -257,7 +257,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -279,7 +279,7 @@
                     width="370"
                     height="294"
                   />
-                  <p class="card__descr">
+                  <p class="card__desc">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
                     отримати вичерпні відомості про компанію чи приватну особу.
@@ -356,24 +356,26 @@
           </ul>
           <!-- Social links end -->
         </div>
-        <!-- Submit Form -->
+        <!-- Subscribe Form -->
         <form
-          class="footer-form js-speaker-form"
+          class="subscribe-form js-speaker-form"
           name="submit-form"
           autocomplete="off"
         >
-          <div class="footer-form__field">
-            <strong class="footer-form__label">Підпишіться на розсилку</strong>
+          <div class="subscribe-form__field">
+            <strong class="subscribe-form__label"
+              >Підпишіться на розсилку</strong
+            >
             <input
-              class="footer-form__input"
+              class="subscribe-form__input"
               name="email-for-subscribe"
               type="email"
               placeholder="E-mail"
             />
           </div>
-          <button class="footer-button" type="submit">
+          <button class="subscribe-button" type="submit">
             Підписатися
-            <svg class="footer-button__icon">
+            <svg class="subscribe-button__icon">
               <use href="./images/icons.svg#icon_submit"></use>
             </svg>
           </button>

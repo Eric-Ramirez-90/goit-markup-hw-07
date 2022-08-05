@@ -8,28 +8,28 @@
 /* колір фону секції Team  #F5F4FA;*/
 /* колір фону фокусу на кнопці #188CE8; */
 
-:root {
-  /* Text colors */
+/* :root {
+  Text colors
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-text-color: #2196f3;
   --hero-text-color: #ffffff;
 
-  /* Bg colors */
+  Bg colors
   --hero-background-color: #c4c4c4;
   --team-background-color: #f5f4fa;
   --footer-background-color: #2f303a;
   --btn-focus-background-color: #188ce8;
 
-  /* Flex */
+  Flex
   --item: 3;
   --card-set-gap: 30px;
 
-  /* Animation */
+  Animation
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-html {
+/* html {
   box-sizing: border-box;
 }
 
@@ -37,23 +37,23 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
+} */
 
-/* Selector Body */
+/* Selector Body
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-}
+} */
 /*
   |==============================
   | Частковий ресет стилей браузера start
   |==============================
 */
 
-.list {
+/* .list {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -76,18 +76,18 @@ p {
 img {
   display: block;
   max-width: 100%;
-}
+} */
 
 /* Частковий ресет стилей браузера end */
-.container {
+/* .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -98,12 +98,12 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+} */
 
 /*
   |==============================
@@ -111,19 +111,19 @@ img {
   |==============================
 */
 
-/* Main Header Flex */
+/* Main Header Flex
 .flex-nav {
   display: flex;
   align-items: center;
-}
+} */
 
 /* Header Section */
 
-.page-header {
+/* .page-header {
   border-bottom: 1px solid #ececec;
-}
+} */
 /* Header logo */
-.logo {
+/* .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -132,9 +132,9 @@ img {
 }
 .logo__text--accent {
   color: #000000;
-}
+} */
 
-/* Site-nav */
+/* Site-nav
 .site-nav__items {
   display: flex;
   gap: 50px;
@@ -175,9 +175,9 @@ img {
 
   background-color: var(--accent-text-color);
   border-radius: 2px;
-}
+} */
 
-/* Contacts */
+/* Contacts
 .contacts {
   gap: 50px;
 }
@@ -205,9 +205,9 @@ img {
   display: block;
   margin-right: 10px;
   fill: currentColor;
-}
+} */
 
-/* Section Hero */
+/* Section Hero
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -242,9 +242,9 @@ img {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
+} */
 
-/* Button in Hero*/
+/* Button in Hero
 .button {
   padding: 10px 32px;
 
@@ -268,9 +268,9 @@ img {
 .button:focus {
   background-color: var(--btn-focus-background-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
-/* Section Benefits */
+/* Section Benefits
 .benefits__items {
   display: flex;
   gap: var(--card-set-gap);
@@ -298,9 +298,9 @@ img {
   line-height: 1.14;
   color: var(--title-text-color);
   text-transform: uppercase;
-}
+} */
 
-/* Section About */
+/* Section About
 .about {
   padding-top: 0;
 }
@@ -335,10 +335,10 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
   text-align: center;
   text-transform: uppercase;
-}
+} */
 
 /* Section Team */
-.team {
+/* .team {
   background-color: var(--team-background-color);
 }
 .team__headline {
@@ -380,9 +380,9 @@ img {
   padding-right: 5px;
   padding-bottom: 30px;
   padding-left: 5px;
-}
+} */
 /* Team Social links */
-.social {
+/* .social {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -414,10 +414,10 @@ img {
 .social__link:focus {
   background-color: var(--accent-text-color);
   color: var(--hero-text-color);
-}
+} */
 
 /* Section Client */
-.client__headline {
+/* .client__headline {
   margin-bottom: 50px;
 
   font-size: 36px;
@@ -455,9 +455,9 @@ img {
 .client__link:focus {
   color: var(--accent-text-color);
   border-color: var(--accent-text-color);
-}
+} */
 
-/* Footer */
+/* Footer
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -498,9 +498,9 @@ img {
 }
 .page-footer--accent {
   color: var(--hero-text-color);
-}
+} */
 
-/* Connect Section */
+/* Connect Section
 .connect {
   margin-left: 70px;
 }
@@ -515,18 +515,18 @@ img {
 .page-footer__social--color {
   color: var(--hero-text-color);
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
-/* Submit Form */
-.footer-form {
+/* Subscribe Form
+.subscribe-form {
   display: flex;
   align-items: flex-end;
   margin-left: auto;
 }
-.footer-form__field {
+.subscribe-form__field {
   margin-right: 12px;
 }
-.footer-form__label {
+.subscribe-form__label {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -535,7 +535,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.footer-form__input {
+.subscribe-form__input {
   display: flex;
   align-items: center;
   padding: 15px 16px;
@@ -552,7 +552,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.footer-button {
+.subscribe-button {
   display: flex;
   align-items: center;
   width: 200px;
@@ -572,18 +572,18 @@ img {
   border-radius: 4px;
   border: none;
 }
-.footer-button__icon {
+.subscribe-button__icon {
   width: 24px;
   height: 24px;
   margin-left: 10px;
-}
+} */
 /*
   |==============================
   | Modal window
   |==============================
 */
 /* Backdrop start*/
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -596,18 +596,18 @@ img {
   opacity: 1;
   transition: opacity 250ms var(--timing-function),
     visibility 250ms var(--timing-function);
-}
+} */
 /* is-hidden */
-.backdrop__is-hidden {
+/* .backdrop__is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
 .backdrop__is-hidden .modal {
   transform: translate(-50%, -50%) scale(0.7);
-}
+} */
 /* Backdrop end*/
-.modal {
+/* .modal {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -656,9 +656,9 @@ img {
 .modal-btn:hover,
 .modal-btn:focus {
   color: var(--accent-text-color);
-}
+} */
 /* Modal Form */
-.modal-form {
+/* .modal-form {
   display: flex;
   flex-direction: column;
 }
@@ -718,9 +718,9 @@ img {
 }
 .modal-form__input:focus + .modal-form__icon {
   fill: var(--accent-text-color);
-}
+} */
 /* Form Textarea */
-.modal-form__textarea {
+/* .modal-form__textarea {
   display: block;
   width: 100%;
   height: 120px;
@@ -741,9 +741,9 @@ img {
 }
 .modal-form__textarea:focus-within {
   border-color: var(--accent-text-color);
-}
+} */
 /* Form Checkbox */
-.checkbox {
+/* .checkbox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -776,9 +776,9 @@ img {
 .checkbox__link--color {
   color: var(--accent-text-color);
   text-underline-position: under;
-}
+} */
 /* Forn button */
-.modal-submit-btn {
+/* .modal-submit-btn {
   padding: 10px 52px;
   margin: 0 auto;
 
@@ -801,7 +801,7 @@ img {
 .modal-submit-btn:hover,
 .modal-submit-btn:focus {
   background-color: var(--btn-focus-background-color);
-}
+} */
 
 /*
   |==============================
@@ -810,7 +810,7 @@ img {
 */
 
 /* Section Filters Button */
-.filter {
+/* .filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -843,10 +843,10 @@ img {
   background-color: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /* Card Set Section */
-.card-set {
+/* .card-set {
   display: flex;
   flex-wrap: wrap;
   gap: var(--card-set-gap);
@@ -931,7 +931,7 @@ img {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
-.card__descr {
+.card__text {
   font-size: 16px;
   line-height: 1.87;
-}
+} */

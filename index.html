@@ -21,7 +21,7 @@
     />
     <!--Normalize end-->
     <!-- Style.css start -->
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <!-- Style.css end -->
   </head>
 
@@ -75,7 +75,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button" type="button" data-modal-open>
+          <button class="hero__button" type="button" data-modal-open>
             Замовити послугу
           </button>
         </div>
@@ -535,24 +535,26 @@
           </ul>
           <!-- Social links end -->
         </div>
-        <!-- Submit Form -->
+        <!-- Subscribe Form -->
         <form
-          class="footer-form js-speaker-form"
+          class="subscribe-form js-speaker-form"
           name="submit-form"
           autocomplete="off"
         >
-          <div class="footer-form__field">
-            <strong class="footer-form__label">Підпишіться на розсилку</strong>
+          <div class="subscribe-form__field">
+            <strong class="subscribe-form__label"
+              >Підпишіться на розсилку</strong
+            >
             <input
-              class="footer-form__input"
+              class="subscribe-form__input"
               name="email-for-subscribe"
               type="email"
               placeholder="E-mail"
             />
           </div>
-          <button class="footer-button" type="submit">
+          <button class="subscribe-button" type="submit">
             Підписатися
-            <svg class="footer-button__icon">
+            <svg class="subscribe-button__icon">
               <use href="./images/icons.svg#icon_submit"></use>
             </svg>
           </button>
