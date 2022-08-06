@@ -18,7 +18,7 @@
         margin-bottom: 20px;
     }
 
-    &--accent {
+    &__logo--accent {
         color: var(--hero-text-color);
     }
 
@@ -49,6 +49,10 @@
 
     &:not(:last-child) {
         margin-bottom: 9px;
+    }
+
+    &--accent {
+        color: var(--hero-text-color);
     }
 }
 

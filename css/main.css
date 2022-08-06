@@ -909,7 +909,7 @@ img {
   display: inline-block;
   margin-bottom: 20px;
 }
-.page-footer--accent {
+.page-footer__logo--accent {
   color: var(--hero-text-color);
 }
 .page-footer__social--color {
@@ -935,6 +935,9 @@ img {
 }
 .address__link:not(:last-child) {
   margin-bottom: 9px;
+}
+.address__link--accent {
+  color: var(--hero-text-color);
 }
 
 .connect {
